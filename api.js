@@ -5,7 +5,6 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-// Token Exist or Not
 if (!process.env.GITHUB_TOKEN) {
   console.error('❌ GITHUB_TOKEN is not defined in your .env file');
   process.exit(1);
